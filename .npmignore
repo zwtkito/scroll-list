@@ -1,0 +1,8 @@
+.git
+.vscode
+*.log
+node_modules
+tsconfig.json
+dist
+yarn.lock
+pnpm-lock.yaml

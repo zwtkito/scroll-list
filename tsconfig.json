@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true, // allow default import
+    "forceConsistentCasingInFileNames": true, // 禁止对同一个文件的不一致的引用
+    "noImplicitReturns": true, //TypeScript will check all code paths in a function to ensure they return a value
+    "noUnusedLocals": true, // Report errors on unused local variables.
+    "strict": true, // 启用所有严格类型检查选项
+    "skipLibCheck": true, // 忽略所有的声明文件（ *.d.ts）的类型检查
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true //阻止对缺少索引签名的索引对象报错
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./src"]
+}
